@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hellospring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-05T11:00:21" hostname="Nana-MacBookAir.local" time="0.151">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.hellospring.HelloSpringApplicationTests" time="0.151"/>
+  <system-out><![CDATA[20:00:21.161 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [HelloSpringApplicationTests]: using SpringBootContextLoader
+20:00:21.164 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [hello.hellospring.HelloSpringApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:00:21.164 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hellospring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:00:21.174 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [HelloSpringApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+20:00:21.200 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/nana/Documents/work/hello-spring/build/classes/java/main/hello/hellospring/HelloSpringApplication.class]
+20:00:21.201 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.HelloSpringApplicationTests
+20:00:21.234 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+20:00:21.234 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:00:21.235 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [HelloSpringApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+20:00:21.235 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [HelloSpringApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-07-05T20:00:21.337+09:00  INFO 4125 --- [    Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 19.0.2 with PID 4125 (started by nana in /Users/nana/Documents/work/hello-spring)
+2023-07-05T20:00:21.338+09:00  INFO 4125 --- [    Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2023-07-05T20:00:21.696+09:00  INFO 4125 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-07-05T20:00:21.755+09:00  INFO 4125 --- [    Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 0.503 seconds (process running for 0.927)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
